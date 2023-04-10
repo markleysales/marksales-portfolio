@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json())
 app.use(express.static("public"));
 app.use(cors({
-  origin: 'https://code.jquery.com',
+  origin: ['https://code.jquery.com', 'https://cdnjs.cloudflare.com'],
   exposedHeaders: 'Coep-Report-To'
 }));
 app.use(helmet());
