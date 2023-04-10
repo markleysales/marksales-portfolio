@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#pageOne_phaseOne {
+  width: 100%;
+  height: 100vh;
+
+  background-color: var(--background-color);
+}
+
+.brand_marksales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 var(--margin-global-distance)
+}
+.logo {
+  height: 28px;
+
+  margin-right: 12px;
+}
+.logo_title {
+  font-size: 1.3rem;
+  font-weight: var(--font-weight-semibold);
+}
+
+input::placeholder {
+  color: var(--background-header-color)
+}
+
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+:root {
+  --background-color: #F6F6F4;
+  --background-header-color: #16161E;
+  --bg-secondary-header-color: #22202B;
+
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
+
+  --secondary-color: #9C9EA1;
+  --golden-color: #DAA520;
+
+  --margin-global-distance: 146px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #545454;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+<%- include("../components/head", { pageTitle: "Home | Markley Sales"}) %>
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/secondary.header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <script type="text/javascript" src="scripts/home.js"></script>
+</head>
+<body>
+  <div id = "pageOne_phaseOne">
+    <%- include("../components/header") %>
+
+    <%- include("../components/secondary-header") %>
+
+    <div class = "principal_container">
+      <div class = "principal_container_left">
+        <p class = "text_principal_container">Com anos de experiência, eu tenho trabalhado em projetos de grande escala e complexidade. Se você precisa de soluções em desenvolvimento de aplicativos, posso garantir que você obtenha resultados de alta qualidade.</p>
+        <br>
+        <p class = "text_principal_container">Estou sempre atualizado com as tendências do mercado e tecnologias emergentes. Seguem alguns dos recursos que utilizo diariamente:</p>
+        <br>
+        <div class = "items_principal_container">
+          <li class = "fa-brands fa-node-js body_technologies"></li>
+          <li class = "fa-brands fa-react body_technologies"></li>
+          <li class = "fa-brands fa-golang body_technologies"></li>
+          <li class = "fa-brands fa-rust body_technologies"></li>
+          <li class = "fa-solid fa-database body_technologies"></li>
+          <li class = "fa-brands fa-docker body_technologies"></li>
+          <li class = "fa-brands fa-aws body_technologies"></li>
+        </div>
+      </div>
+
+      <div class = "principal_container_right">
+        <div>
+          <p class = "text_person">@markley_sales</p>
+          <div class = "iam_person">
+            <p class = "iam_text">Eu sou</p>
+            <p id = "typed-text" class = "text_person"></p>
+          </div>
+        </div>
+        <img class = "image_person" class = "" src = "images/perfil-main.jpeg">
+      </div>
+    </div>
+  </div>
+
+  <%- include("../components/footer") %>
+</body>
+</html>

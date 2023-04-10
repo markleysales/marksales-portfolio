@@ -1,0 +1,76 @@
+.principal_container {
+  width: 100%;
+  height: calc(100vh - 230px);
+
+  background-color: var(--background-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.principal_container_left {
+  margin-left: var(--margin-global-distance);
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.text_principal_container {
+  font-size: 1rem;
+  font-weight: (--font-weight-regular);
+  color: var(--background-header-color);
+
+  width: 403px;
+}
+.items_principal_container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.body_technologies {
+  font-size: 2.2rem;
+  color: var(--golden-color);
+
+  margin-right: 16px;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+.body_technologies:hover {
+  transform: scale(1.2);
+
+  transition: 0.5;
+}
+
+.principal_container_right {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  margin-right: var(--margin-global-distance);
+}
+.text_person {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+
+  width: 130px;
+}
+.iam_person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iam_text {
+  color: var(--secondary-color);
+}
+#typed-text {
+  margin-left: 4px;
+}
+.image_person {
+  width: 240px;
+
+  border-radius: 10px;
+}
