@@ -15,7 +15,10 @@ app.disable('x-powered-by');
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json())
 app.use(express.static("public"));
-app.use(cors());
+app.use(cors({
+  origin: 'https://code.jquery.com',
+  exposedHeaders: 'Coep-Report-To'
+}));
 app.use(helmet());
 
 app.use(homeRoute);
